@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&family=Kanit:wght@800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +8,47 @@ body {
   background-size: 1400px 700px;
   background-image: url("imgs/bgm.png");
   background-repeat: no-repeat;
+}
+.hd {
+  text-align: center;
+  margin-top: 50px;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  font-size: 60px;
+  font-family: "Kanit", sans-serif;
+}
+.row {
+  display: flex;
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.clm {
+  width: 60%;
+  padding: 70px 30px;
+  justify-content: center;
+}
+.clm img {
+  width: 275px;
+  height: auto;
+}
+
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play button {
+  height: 50px;
+  width: 200px;
+  border-radius: 30px;
+  background-image: url("imgs/bgm.png");
+  background-size: cover;
+  border-color: white;
+}
+.play button P {
+  color: white;
+  font-family: "Big Shoulders Stencil Display", cursive;
+  font-size: 30px;
 }
